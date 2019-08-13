@@ -6,4 +6,6 @@ start()->
 	X = 50,
 	Y= 40,
 	Result = X + Y,
-	io:fwrite("~w",[Result]).
+	io:fwrite("~w~n",[X]),
+	io:fwrite("~w~n",[Y]),
+	io:fwrite("~w~n",[Result]).
